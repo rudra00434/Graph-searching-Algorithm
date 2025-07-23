@@ -28,3 +28,8 @@ Dijkstra's algorithm in Java
 Java code for Dijkstra's algorithm with adjacency list
 Dijkstra's algorithm java implementation github
 5 test cases for Dijkstra's algorithm
+<h1>Here is the visual representation of Dijkstra's Algorithm</h1><img width="1002" height="502" alt="d2-(1)" src="https://github.com/user-attachments/assets/1cfb7776-169b-4cc6-b209-12c225090d34" />
+![1_rX7jt8J61Pyeu6Qb98mXUg](https://github.com/user-attachments/assets/b54e6f32-3068-4f4e-b98c-5044b94d3539)
+<img width="538" height="284" alt="1_-MpmvcyfJbxvI_1jIt5lJA" src="https://github.com/user-attachments/assets/4dd4f7e6-f7b3-410b-8b98-865033d131dd" />
+
+
