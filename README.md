@@ -1,6 +1,6 @@
 # Graph-searching-Algorithm
 Data Structure and Algorithms
-Finding the Shortest Path: A Java Implementation of Dijkstra's Algorithm with 5 Test Cases
+## Finding the Shortest Path: A Java Implementation of Dijkstra's Algorithm with 5 Test Cases
 
 Dijkstra's algorithm is a cornerstone in graph theory and computer science, celebrated for its efficiency in finding the shortest paths from a single source vertex to all other vertices in a weighted graph. This article provides a comprehensive Java implementation of Dijkstra's algorithm, complete with five distinct test cases to illustrate its functionality and robustness in various scenarios.
 
@@ -34,3 +34,69 @@ Dijkstra's algorithm java implementation github
 <img width="538" height="284" alt="1_-MpmvcyfJbxvI_1jIt5lJA" src="https://github.com/user-attachments/assets/4dd4f7e6-f7b3-410b-8b98-865033d131dd" />
 
 
+## 🚀 A* Pathfinding algorithm in Java
+
+This project demonstrates the A* (A-star) pathfinding algorithm implemented in Java on a simple 2D grid. The program finds the shortest path from a start node to a goal node while avoiding obstacles.
+
+📌 Features
+
+Implements A* pathfinding with a Manhattan distance heuristic.
+
+Works on a 2D grid (matrix).
+
+Supports obstacles (cells marked as blocked).
+
+Reconstructs and prints the shortest path step by step.
+
+Easy-to-understand code for learning pathfinding algorithms.
+
+🧠 How It Works
+
+Grid Representation
+
+0 → Free cell
+
+1 → Obstacle
+
+Algorithm
+
+Uses a priority queue (min-heap) to always expand the lowest f = g + h node.
+
+g = cost from start node
+
+h = heuristic cost (Manhattan distance)
+
+Explores neighbors in 4 directions (Up, Down, Left, Right).
+
+Stops when the goal is reached.
+
+Output
+
+If a path exists, prints the sequence of (row, col) coordinates.
+
+Otherwise, prints "No path found".
+## Input Grid:
+```
+0 0 0 0 0
+1 1 0 1 0
+0 0 0 0 0
+0 1 1 1 0
+0 0 0 0 0
+```
+
+Start = (0,0)
+
+Goal = (4,4)
+## Output:
+```
+Path found:
+(0, 0)
+(0, 1)
+(0, 2)
+(1, 2)
+(2, 2)
+(2, 3)
+(2, 4)
+(3, 4)
+(4, 4)
+```
